@@ -1,17 +1,15 @@
 html {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 .event-grey {
-  line-height: 1.5;
-  background-color: #ccc;
+  background-color: #f2f2f2;
   color: #333;
   border-radius: 8px;
   border: 1px solid #666;
 }
 
 .event-red {
-  line-height: 1.5;
   background-color: #f2bcbc;
   color: #991919;
   border-radius: 8px;
@@ -19,7 +17,6 @@ html {
 }
 
 .event-green {
-  line-height: 1.5;
   background-color: #d1e0bf;
   color: #51603f;
   border-radius: 8px;
@@ -27,9 +24,17 @@ html {
 }
 
 .event-blue {
-  line-height: 1.5;
   background-color: #d2d6f0;
   color: #38448e;
   border-radius: 8px;
   border: 1px solid #1d38da;
+}
+
+td {
+  max-width: 20em;
+  height: 10em;
+}
+
+table {
+  border: 1px solid #ccc;
 }
